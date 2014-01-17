@@ -1,0 +1,488 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Bolt - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+ 
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* Elements */
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 70px;
+}
+
+section {
+	padding: 80px 0;
+	width: 100%;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+/* Paragraph & Typographic */
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+
+/* Bootstrap Modifications */
+@media (min-width: 768px) {
+	.navbar-nav > li {
+		margin-left: 10px;
+	}
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #ffffff;
+}
+
+.navbar li:hover {
+	cursor: pointer;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #74cfae;
+}
+
+.navbar-brand {
+	font-size: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 400px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border: none;
+}
+
+a.navbar-brand:hover {
+	cursor: pointer;
+} 
+
+.navbar-brand img {
+	float: left;
+}
+
+.navbar-brand h1 {
+	float: left;
+	font-family: "Raleway";
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 5px 0 0 10px;
+	color: #231f20;
+}
+
+.navbar-toggle {
+	border-radius: 0px;
+	border: none;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #fff;
+}
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #74cfae;
+	border-color: transparent;
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+
+/* Home Section */
+#home {
+	padding-top: 10px;
+	background: url(../img/bg.jpg) no-repeat center top;
+	background-attachment: relative;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+#home h1 {
+	margin-top: 40px;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+#home .mt {
+	margin-top: 100px;
+}
+
+#home i {
+	color: #ff9898;
+	font-size: 30px;
+}
+
+#home h3 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#home h3 span {
+	font-weight: 700;
+}
+
+#home p {
+	font-weight: 300;
+}
+
+
+/* Events Section */
+#events {
+	background-color: #474e5d;
+}
+
+#events h3 {
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+#events h4 {
+	font-family: "Lato";
+	font-size: 24px;
+	font-weight: 400;
+	color: #fff;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+#events img {
+	width: 360px;
+	height: 240px;
+}
+
+#events span.date {
+	display: block;
+	float: left;
+	margin: 0 10px 10px 0;
+	line-height: 18px;
+	width: 55px;
+    height: 55px;
+    padding: 9px 5px;
+	-webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+}
+
+#events span.cal {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#events span.cal i {
+	font-size: 14px;
+	position: relative;
+	top: -1px;
+}
+
+#events span.time {
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#events span.place {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#events p {
+	color: #fff;
+	font-family: "Lato";
+	font-weight: 300;
+	padding: 15px;
+	margin-bottom: 35px;
+	background-color: #393f4b;
+}
+
+/* Gallery Section */
+#gallery h3 {
+	font-weight: 400;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.grid {
+    max-width: 69em;
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+}
+.grid li {
+    display: block;
+    float: left;
+    padding: 7px;
+    width: 33%;
+    opacity: 0;
+}
+.grid li.shown, .no-js .grid li, .no-cssanimations .grid li {
+    opacity: 1;
+}
+.grid li a, .grid li img {
+	z-index: -1;
+    outline: 0;
+    border: 0;
+    display: block;
+    max-width: 100%
+}
+
+.grid img {
+    opacity: .7;
+    -webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;
+}
+
+.grid li .caption {
+	position: relative;
+	z-index: 99;
+	opacity: 0;
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-top: -40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	background-color: #74cfae;
+	-webkit-transition: all 300ms ease-out;  
+    -moz-transition: all 300ms ease-out;  
+    -o-transition: all 300ms ease-out;  
+    -ms-transition: all 300ms ease-out;  
+    transition: all 300ms ease-out;
+} 
+
+.grid li .caption i {
+	font-size: 15px;
+	padding-left: 8px;
+}
+
+.grid li:hover img, .grid li:hover .caption {
+    opacity: 1;
+}
+
+.grid.effect-2 li.animate {
+    -webkit-transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    transform: translateY(200px);
+    -webkit-animation: moveUp .65s ease forwards;
+    -moz-animation: moveUp .65s ease forwards;
+    animation: moveUp .65s ease forwards;
+}
+@-webkit-keyframes moveUp {
+    to {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+}
+}@-moz-keyframes moveUp {
+    to {
+    -moz-transform: translateY(0);
+    opacity: 1;
+}
+}@keyframes moveUp {
+    to {
+    transform: translateY(0);
+    opacity: 1;
+}
+}
+
+/* About */
+#about {
+	background-color: #4e4e4e;
+}
+
+/*#about:after {
+	position: absolute;
+	left: 50%;
+	height: 0;
+	width: 0;
+	margin-top: 80px;
+	margin-left: -16px;
+	border: solid transparent;
+	border-width: 16px;
+	pointer-events: none;
+	border-top-color: #4e4e4e;
+	content: " ";
+}*/
+
+#about h3 {
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+}
+
+#about p {
+	margin-top: 35px;
+	padding: 0 15px;
+	color: white;
+	font-weight: 400;
+}
+
+
+/* Social Links */
+#social {
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#social i {
+	font-size: 50px;
+	color: #74cfae;
+}
+
+#social .col-md-3:hover {
+	background-color: #f5f5f5;
+}
+
+#social .col-md-3 {
+	padding:30px;
+}
+
+
+/* Footer */
+footer {
+	padding-top: 20px;
+	background-color: #74cfae;
+}
+
+footer p {
+	color: white;
+	text-align: right;
+	font-weight: 400;
+	padding: 0 8px;
+}
+
+footer p img {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 8px;
+	-webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: all 300ms ease-in-out;  
+    -moz-transition: all 300ms ease-in-out;  
+    -o-transition: all 300ms ease-in-out;  
+    -ms-transition: all 300ms ease-in-out;  
+    transition: all 300ms ease-in-out;
+}
+
+footer p img:hover {
+	-webkit-filter: grayscale(0%);
+}
+
+footer i {
+	color: #ff9898;
+}
+
+footer a {
+	color: #fff;
+	font-weight: 700;
+}
