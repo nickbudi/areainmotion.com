@@ -30,6 +30,11 @@ section {
 	width: 100%;
 }
 
+button {
+	outline: none;
+	border: none;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
@@ -88,7 +93,16 @@ a:after {
 	}
 }
 
- hr {
+@media (max-width: 456px) {
+	a.navbar-brand {
+		width: 65px;
+	}
+	.navbar-brand h1 {
+		display: none;
+	}
+}
+
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -243,8 +257,7 @@ a.navbar-brand:hover {
 }
 
 #events img {
-	width: 360px;
-	height: 240px;
+	width: 100%;
 }
 
 #events span.date {
