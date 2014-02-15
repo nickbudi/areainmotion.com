@@ -342,7 +342,7 @@ a.navbar-brand:hover {
 }
 
 .grid img {
-    opacity: .999;
+    opacity:;
     -webkit-transition: all 300ms ease-out;  
     -moz-transition: all 300ms ease-out;  
     -o-transition: all 300ms ease-out;  
