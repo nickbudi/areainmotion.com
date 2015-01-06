@@ -188,7 +188,7 @@ a.navbar-brand:hover {
 /* Home Section */
 #home {
 	padding-top: 10px;
-	background: url(../img/bg.jpg) no-repeat center top;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/bg.jpg) no-repeat center top;
 	background-attachment: relative;
     background-position: center center;
     min-height: 600px;
